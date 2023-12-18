@@ -1,0 +1,1 @@
+This approach has a time complexity of O(n), where n is the length of the strings, and a space complexity of O(1) since the array size is constant. It efficiently checks if two strings are anagrams by comparing the frequency of each character.

@@ -1,0 +1,6 @@
+1.  Check Lengths: If the lengths of the two strings are different, they cannot be anagrams. Return false in this case.
+2.  Frequency Array: Create an array to store the frequency of each character. In the case of English lowercase letters, you can use an array of size 26 (assuming only lowercase letters). Initialize the array to all zeros.
+
+3.  Increment and Decrement Counts: Iterate through each character in the first string and increment the count at the corresponding index in the frequency array. Then, iterate through each character in the second string and decrement the count at the corresponding index.
+
+4.  Check Counts: After processing both strings, check if all counts in the frequency array are zero. If they are, the strings are anagrams; otherwise, they are not.
